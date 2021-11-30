@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Produtos - Game Mania</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a class="link-menu position-img-logo" href="index.html">
+                <img class="img-logo" src="logo_game_mania_deitada.png" alt="">
+            </a>
+            <div class="group">
+                <input class="form" type="text" id="search-header" name="search-hearder" placeholder="Buscar...">
+                <a class="group-text fas fa-search fa-2x" href="produtos.html"></a>
+            </div>
+            <a class="link-menu btn-outline-white" href="minha-conta.html"><span class="fas fa-user fa-2x mx-fa"></span>Faça o seu login<br>ou cadastre-se</a>
+            <a class="link-menu btn-outline-white" href="sac.html"><span class="fas fa-user-headset fa-2x mx-fa"></span>Atendimento<br>ao cliente</a>
+            <div class="link-menu carrinho">
+                <a class="link-menu" href="carrinho.html"><span class="fas fa-shopping-cart fa-2x"></span></a>
+                <span class="circle">1</span>
+            </div>
+            <a class="menu-icon" href="#"><span class="fas fa-bars fa-2x"></span></a>
+        </nav>
+    </header>
+
+    <div class="filtro">
+        <h2>Filtrar por: </h2>
+        <dl>
+            <dt>Preço</dt>
+            <dd>
+                <label for="range"></label>
+                <input type="range">
+            </dd>
+
+            <hr>
+
+            <dt>Categoria</dt>
+            <dd>
+                <label for="checkbox-1"></label>
+                <input type="checkbox"> Jogos(36)
+            </dd>
+            <dd>
+                <label for="checkbox-2"></label>
+                <input type="checkbox"> PC Gamers(7)
+            </dd>
+            <dd>
+                <label for="checkbox-3"></label>
+                <input type="checkbox"> Playstation(7)
+            </dd>
+            <dd>
+                <label for="checkbox-4"></label>
+                <input type="checkbox"> Placa mãe(11)
+            </dd>
+            <dd>
+                <label for="checkbox-5"></label>
+                <input type="checkbox"> Memória(18)
+            </dd>
+            <dd>
+                <label for="checkbox-6"></label>
+                <input type="checkbox"> Placa de vídeo(8)
+            </dd>
+            <dd>
+                <label for="checkbox-7"></label>
+                <input type="checkbox"> Notebooks(2)
+            </dd>
+            <dd>
+                <label for="checkbox-8"></label>
+                <input type="checkbox"> Xbox(8)
+            </dd>
+
+            <hr>
+
+            <dt>Marcas</dt>
+            <dd>
+                <label for="checkbox-9"></label>
+                <input type="checkbox"> Activision(2)
+            </dd>
+            <dd>
+                <label for="checkbox-10"></label>
+                <input type="checkbox"> EA(8)
+            </dd>
+            <dd>
+                <label for="checkbox-11"></label>
+                <input type="checkbox"> Epic Games(12)
+            </dd>
+            <dd>
+                <label for="checkbox-12"></label>
+                <input type="checkbox"> Logitech(2)
+            </dd>
+            <dd>
+                <label for="checkbox-13"></label>
+                <input type="checkbox"> Konami(14)
+            </dd>
+            <dd>
+                <label for="checkbox-14"></label>
+                <input type="checkbox"> Playstation(22)
+            </dd>
+            <dd>
+                <label for="checkbox-15"></label>
+                <input type="checkbox"> Rockstar Games(6)
+            </dd>
+            <dd>
+                <label for="checkbox-16"></label>
+                <input type="checkbox"> Xbox(25)
+            </dd>
+
+            <hr>
+
+            <dt>Acessórios</dt>
+            <dd>
+                <label for="checkbox-17"></label>
+                <input type="checkbox"> Headset(2)
+            </dd>
+            <dd>
+                <label for="checkbox-18"></label>
+                <input type="checkbox"> Controle(7)
+            </dd>
+            <dd>
+                <label for="checkbox-19"></label>
+                <input type="checkbox"> Mouse(14)
+            </dd>
+            <dd>
+                <label for="checkbox-20"></label>
+                <input type="checkbox"> Teclado(9)
+            </dd>
+            <dd>
+                <label for="checkbox-21"></label>
+                <input type="checkbox"> Monitor(3)
+            </dd>
+            <dd>
+                <label for="checkbox-22"></label>
+                <input type="checkbox"> Volante(6)
+            </dd>
+
+            <hr>
+
+            <dt>Jogos</dt>
+            <dd>
+                <label for="checkbox-23"></label>
+                <input type="checkbox"> Fifa(8)
+            </dd>
+            <dd>
+                <label for="checkbox-24"></label>
+                <input type="checkbox"> Pes(10)
+            </dd>
+            <dd>
+                <label for="checkbox-25"></label>
+                <input type="checkbox"> Call of Duty(5)
+            </dd>
+            <dd>
+                <label for="checkbox-26"></label>
+                <input type="checkbox"> F1(7)
+            </dd>
+
+
+        </dl>
+    </div>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Ordernar por:</p>
+                </td>
+                <td style="padding: 5px;">
+                    <select name="order" id="order">
+                            <option value="maisprocurado">Preço crescente</option>
+                            <option value="maisprocurado">Preço decrescente</option>
+                            <option value="maisprocurado">Mais recente</option>
+                            <option value="maisprocurado">Mais avaliados</option>
+                            <option value="maisprocurado">Mais procurados</option>
+                        </select>
+                </td>
+                <td style="padding: 5px;">
+                    9 produtos
+                </td>
+                <td>
+                    <img style="width: 30px;" src="3325153_list_icon.png" alt="">
+                </td>
+                <td style="padding: 5px;">
+                    <img style="width: 30px;" src="2561445_grid_icon.png" alt="">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+                <td>
+                    <img src="https://images.kabum.com.br/produtos/fotos/128560/console-microsoft-xbox-series-x-1tb-preto-rrt-00006_1601067024_gg.jpg" style="height: 200px;" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>Console Xbox Series X com 1TB</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+                <td style="padding: 5px;">
+                    <h3>R$4.999,99</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+                <td style="padding: 5px;">
+                    <p>12X de R$416,66 sem juros</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <br>
+    <footer>
+        <nav class="footer espaco">
+            <div class="container">
+                <div class="linha">
+                    <div class="coluna-3">
+                        <h3 class="fs-22">Institucional</h3>
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <a href="#">Lorem Ipsum</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Lorem Ipsum</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Lorem Ipsum</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Lorem Ipsum</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Lorem Ipsum</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="coluna-3">
+                        <h3 class="fs-22">Contato</h3>
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <a href="#"><span class="fab fa-instagram fa-2x instagram-hover"></span></a>
+                                <a href="#"><span class="fab fa-facebook-f fa-2x facebook-hover"></span></a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#"><span class="fas fa-phone icon-contato"></span>(11) 99999-9999</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#"><span class="fas fa-envelope icon-contato"></span>email@email.com</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#"><span class="fas fa-map-marker-alt icon-contato"></span>XXXXX - Centro, São Paulo</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="coluna-3">
+                        <h3 class="fs-22">Ajuda</h3>
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <a href="#">Sac</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Termos de aceite</a>
+                            </li>
+                            <li class="li-footer">
+                                <a href="#">Politica de privacidade</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="coluna-3">
+                        <h3 class="fs-22">Formas de pagamento</h3>
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <span class="fab fa-cc-amex fa-formas-pag"></span>
+                                <span class="fab fa-cc-paypal fa-formas-pag"></span>
+                                <span class="fab fa-cc-visa fa-formas-pag"></span>
+                            </li>
+                            <li class="li-footer d-flex">
+                                <span class="fab fa-cc-mastercard fa-formas-pag"></span>
+                                <span class="fas fa-barcode fa-formas-pag"></span>
+                                <div class="pix"><img class="pix-img" src="https://static.pichau.com.br/images/pix.png" alt=""></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="coluna-3">
+                        <img class="logo-footer" src="https://cdn.awsli.com.br/400x300/1886/1886098/logo/e887b86516.png" alt="">
+                    </div>
+                    <div class="coluna-3">
+                        <h3 class="fs-22">Selo de segurança</h3>
+                        <ul class="ul-footer">
+                            <li class="li-footer">
+                                <img style="margin-right: 10px;" src="https://images2.tcdn.com.br/commerce/assets/store/img/selo_lojaprotegida.gif?d72b746fc09b69d70f2159ea0ee68dad" alt="">
+                                <img src="https://seal.siteblindado.com.br/www.pichau.com.br/seal.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
